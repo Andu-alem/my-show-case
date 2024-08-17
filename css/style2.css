@@ -1,0 +1,245 @@
+body{
+	padding: 0;
+	/*background-color: #f4f4f4;*//
+	background-color: white;
+	letter-spacing: 1px;
+	word-spacing: 0.1em;
+	width: 96%;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+p{
+	letter-spacing: 0.01em;
+	line-height: 1.4em;
+	color: #666666;
+	font-weight: lighter;
+}
+.d-block{
+	display: block;
+}
+.d-none{
+	display: none;
+}
+.header{
+	font-family: Arial, Helvetica, sans-serif;
+	/*background-color: #ffbb33;*/
+	background-color: white;
+	padding: 0px;
+	min-height: 80px;
+	
+	word-spacing: 0px;
+	letter-spacing: 0px;
+	width: 96%;
+	margin: auto;
+	position: fixed;
+}
+.body-container{
+	padding-top: 90px;
+	width: 90%;
+	margin: auto;
+}
+.brand{
+	padding-top: 15px;
+}
+.brand a{
+	text-decoration: none;
+	padding-left: 20px;
+	color: #ffbb33;
+	font-size: 35px;
+	font-weight: bolder;
+}
+.navbar-menu{
+	float: right;
+	display: block;
+	width: 50px;
+	height: 40px;
+	padding: 5px;
+	right: 25px;
+	top: 15px;
+	margin-top: -40px;
+	margin-right: 10px;
+}
+.navbar-menu:hover{
+	border: 1px solid #ffbb33;
+}
+.nav-menu-icon{
+	float: right;
+	width: 40px;
+	height: 4px;
+	margin-right: 5px;
+	margin-top: 2px;
+	box-shadow: 0px 5px 1px #ffbb33, 0px 15px 1px #ffbb33, 0px 25px 1px #ffbb33;
+}
+.nav{
+	padding-top: 10px;
+}
+.nav ul{
+	list-style: none;
+	display: none;
+}
+.nav li{
+	display: block;
+	padding: 7px 6px;
+}
+.nav li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.nav li a:hover{
+	color: #ffbb33;
+}
+.showcase{
+	min-height: 400px;
+	background: url('../img/myart.jpg') 0 -5px;
+	text-align: center;
+	color: white;
+}
+.showcase div{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+.container h1{
+	font-size: 50px;
+}
+.idea-section{
+	padding: 5px;
+}
+.idea-box{
+	/*border: lightgrey 1px solid;*/
+	padding-left: 10px;
+	margin: 5px;
+}
+.idea-box h4{
+	text-align: center;
+}
+.idea-box p{
+	
+}
+
+.blog-section{
+	width: 90%;
+	margin: auto;
+}
+.blog-section h3{
+	font-family: "Times New Roman",Times, serif;
+}
+.blog-section p{
+}
+.blog-title{
+	font-size: 2.2em;
+}
+footer{
+	border-top: lightgrey 1px solid;
+	color: #ffbb33;
+	padding-top: 14px;
+}
+.footer{
+	width: 100%;
+	height: 70px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+.footer p{
+	color: #ffbb33;
+}
+.social a{
+	text-decoration: none;
+	color: #ffbb33;
+}
+.social{
+	float: left;
+	width: 48%;
+}
+.social p{
+	padding: 2px;
+	margin: 0px;
+	padding-left: 20%;
+}
+.contact{
+	float: left;
+	width: 48%;
+}
+.contact p{
+	margin: 0px;
+	padding: 3px;
+}
+.copy-right{
+	padding-top: 25px;
+	text-align: center;
+}
+.copy-right p{
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	font-weight: bold;
+	font-size: 17px;
+}
+.iner-container{
+	padding: 15px;
+}
+
+@media(min-width: 840px){
+	.brand{
+		float: left;
+	    margin-top: 0px;
+		margin-left: 20px;
+	}
+	.brand a{
+		margin-left: 30px;
+	}
+	.nav{
+		float: right;
+		padding-right: 70px;
+		margin-right: 
+	}
+	.navbar-menu{
+		display: none;
+	}
+	.nav ul{
+		list-style: none;
+		display: block;
+	}
+	.nav li{
+		float: left;
+		display: inline;
+		padding: 0px 6px;
+	}
+	.idea-section{
+		margin-bottom: 15px;
+		padding-left: 5%;
+		float: left;
+	}
+	.idea-box{
+		float: left;
+		/*border: #4dff88 1px solid;*/
+		width: 45%;
+		padding-left: 15px;
+		margin: 5px;
+	}
+	.blog-section{
+		margin-top: 200px;
+	}
+	.blog-container h2{
+	}
+	.social{
+		border-right: #ffbb33 1px solid;
+	}
+	.social p{
+		padding-left: 55%;
+	}
+	.contact p{
+		padding-left: 20%;
+	}
+	.body-container{
+		width: 80%;
+	}
+	.iner-container{
+		width: 72%;
+		margin: auto;
+	}
+}
